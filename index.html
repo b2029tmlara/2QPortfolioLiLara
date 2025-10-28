@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head> 
@@ -13,17 +14,16 @@
 <script> src="script.js" defer></script>
 
 <style> 
+.indexsection {
+    background-color: rgb(241, 235, 235);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px; 
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
 
-header {color: blue;
-        text-align: center;
-}
-p {font-family: Times New Roman;
-   color: red;
-  text-align: center;
-}
-footer {color: blue;
-        text-align: center;
-}
 
 
 </style>
@@ -34,35 +34,52 @@ footer {color: blue;
     <h1> Welcome to Travis Marco Lara's 2Q Portfolio </h1>
 </header>
 
-<nav
-        <p> Please click the links below to access my outputs for Q2 in CS3, SY 2024 - 2025 </p>
+<section class="indexsection"> 
+<table border="1"> 
+  <!-- Header row -->
+  <tr> 
+    <th> OUTPUT </th>
+    <th> DESCRIPTION </th>
+    <th> LINK </th>
+  </tr>
 
 
-            <ul>
-                    <!-- change the path to ./public/ because without it it just means from the root, it will work with your vscode 
-                    but not in github, because the root is different -->
-<button> <a href="./public/2Q1GLiLara.html"> <b> First Graded Exercise </b> </a> </button> <br/>
+  <!-- Data for 1st Output -->
+  <tr>
+    <td>1st-2nd Graded </td>
+    <td> HTML & CSS  </td>
+    <td><a href="./public/2Q1GLiLara.html"> 2Q1GLiLara </a></td>
+  </tr>
 
-<button> <a href="Q21NGLiLara.html"> <b> First Non-graded Exercise </b> </button> </a> <br/>
+  <!-- Data for 1st NON GRADED  -->
+  <tr>
+    <td> 1st Non-graded </td>
+    <td> CSS Practice </td>
+    <td><a href="Q21NGLiLara.html"> 2Q1NGLiLara </a></td>
+  </tr>
 
-<button> <a href="#OUTPUT"> <b> OUTPUT 3 </b> </a> </button> <br/> 
-
-            </ul>
-</nav>
+  <!-- Data for 3rd Output -->
+  <tr>
+    <td>OUTPUT 3</td>
+    <td> INSERT </td>
+    <td><a href="#OUTPUT3"> INSERT </a></td>
+  </tr>
+  
+   <!-- Data for 4th Output -->
+  <tr>
+    <td>OUTPUT 4</td>
+    <td> INSERT </td>
+    <td><a href="#OUTPUT3"> INSERT </a></td>
+  </tr>
+  
+</table>
+</section>
         
 <footer> 
-<h3> <i> [Li 17] Travis Marco Lara <br/> 
-        Ms. Aline Teresa Mendoza, CS3
-
-</i></h3>
-</footer>
     <p>&copy; 2025 Travis Marco Lara, PSHS-MC B2029. All Rights Reserved.</p>
     <p> b2029tmlara@pshs.edu.ph </p>
 </footer>
 
-
-</body>
-</html>
 
 </body>
 </html>
